@@ -42,4 +42,9 @@ npx sequelize db:migrate
   - A city has many airports but one airport belongs to a city
   - One airport can have many flights, but a flight belongs to one airport
 
-   
+ ## Tables
+
+
+ ### city-> id ,name,created_at, updated_at
+ ### Airport -> id,name, address ,city-id,created_at,updated_at
+     Relationship -> city has many airports and Airport belongs to a city(one to many)  
