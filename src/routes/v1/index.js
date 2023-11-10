@@ -15,7 +15,6 @@ router.patch('/city/:id', CityController.update);
 
 
 
-router.post('/city', CityController.create);
 
 
 module.exports = router;
